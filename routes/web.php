@@ -13,7 +13,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-
+//if the routes are not working modify to Route::get('/','WelcomeController@index');
 Route::get('/',[WelcomeController::class,'index']);
 Route::get('/about',[WelcomeController::class,'aboutUs']);
 Route::get('/all-products',[WelcomeController::class,'products']);
